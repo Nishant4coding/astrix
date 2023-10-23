@@ -87,26 +87,26 @@ function HeroSection() {
               alt="images absolute top-0 left-0"
               className="w-auto h-auto"
             />
-            <div className="absolute top-[50%] -translate-y-[50%] right-0 fc fcc gap-10 md:gap-20 text-white w-16 md:w-36">
-              <div className="text-md md:text-3xl font-semibold font-Poppins leading-[1.2em]">
+            <div className="absolute top-[50%] -translate-y-[50%] right-0 fc fcc gap-8 md:gap-20 text-white w-16 md:w-36 break-words">
+              <div className="text-md md:text-3xl w-24 ">
                 +<span id="count1">0</span>
                 <br />
-                <span className="text-[0.5em] font-semibold font-Plus Jakarta Sans leading-relaxed">
+                <span className="text-[0.5em] font-semibold font-Plus Jakarta Sans ">
                   Project Complete
                 </span>
               </div>
-              <div className="text-md md:text-3xl font-semibold font-Poppins leading-[1.2em]">
+              <div className="text-md md:text-3xl w-24">
                 +<span id="count2">0</span>
                 <br />
-                <span className="text-[0.5em] font-semibold font-Plus Jakarta Sans leading-relaxed">
+                <span className="text-[0.5em] font-semibold font-Plus Jakarta Sans ">
                   Happy Client
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </span>
               </div>
-              <div className="text-md md:text-3xl font-semibold font-Poppins leading-[1.2em]">
+              <div className="text-md md:text-3xl w-24">
                 +<span id="count3">0</span>
                 <br />
-                <span className="text-[0.5em] font-semibold font-Plus Jakarta Sans leading-relaxed">
+                <span className="text-[0.5em] font-semibold font-Plus Jakarta Sans ">
                   Years Experience
                 </span>
               </div>

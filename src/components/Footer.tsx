@@ -13,9 +13,9 @@ import Subscribe from "./Subscribe";
 function Footer() {
   return (
     <footer className="bg-zinc-950 w-full ">
-      <div className="container mx-auto px-4 flex flex-col items-center relative mt-10 ">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 text-center mb-10 b">
-          <div className="mb-8 md:mb-0 flex flex-col justify-center items-center">
+      <div className="container mx-auto p-4 flex flex-col items-center relative mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 text-center mb-10 ">
+          <div className="mb-8 md:mb-0 flex flex-col justify-center items-center mt-10">
             <Image
               src="/logo.png"
               width={300}
@@ -23,32 +23,7 @@ function Footer() {
               className="w-60 h-auto text-center justify-center"
               alt=""
             />
-            <br />
-            <div className="flex-col md:text-left md:justify-left md:items-left text-center justify-center items-center gap-[40px]  lg:ml-10 leading-[50px]">
-              <div className="text-white  text-md font-normal font-Roboto leading-normal ">
-                Lorem Ipsum, 235 Simply,
-                <br />
-                printing, Pin 309 309
-                <br />
-                Lorem Ipsum, 235 Simply,
-                <br />
-                printing, Pin 309 309
-              </div>
-              <div>
-                <span className="text-white text-md font-normal font-Roboto ">
-                  info
-                </span>
-                <span className="text-white text-md font-normal font-Roboto">
-                  @astrix.co.in
-                </span>
-              </div>
-              <div className="text-white text-md font-normal font-Roboto">
-                +91 85276 99439
-              </div>
-              <div className=" lg:hidden text-white">
-                Career | Terms & Condition | Privacy Policy
-              </div>
-            </div>
+            <div className="flex-1"></div>
           </div>
           <div>
             {/* web view */}
@@ -156,9 +131,16 @@ function Footer() {
               </Link>
             </nav>
           </div>
+
+          <div className="hidden md:block">
+            <Subscribe />
+          </div>
+        </div>
+        {/* social links */}
+        <div className="md:hidden w-[60%]">
           <Subscribe />
         </div>
-        <div className="flex flex-col items-center text-center justify-center p-5 ">
+        <div className="fcc fc text-center justify-center p-5">
           <div className="flex flex-row space-x-6 items-center">
             {/* <Link
               href="#"
@@ -199,6 +181,7 @@ function Footer() {
           </div>
         </div>
       </div>
+
       <div className=" text-center text-stone-900 lg:text-[250px] text-7xl font-medium font-Roboto pb-0 ">
         astrix
       </div>

@@ -26,6 +26,19 @@ export const metadata: Metadata = {
     "Lead Generation",
     "Conversion Optimization",
   ],
+  openGraph: {
+    type: "website",
+    url: "https://astrix.co.in",
+    title: "Astrix - Digital Marketing and IT Solutions",
+    description:
+      "Leading provider of digital marketing, web development, and IT solutions for businesses. Unlock growth with Astrix.",
+    images: [
+      {
+        url: "https://astrix.co.in/logo.png",
+        alt: "Astrix - Digital Marketing and IT Solutions",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

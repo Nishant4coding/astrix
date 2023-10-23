@@ -1,38 +1,26 @@
-import Image from "next/image";
-import React, { useState } from "react";
-
 export default function Subscribe() {
-  const [email, setEmail] = useState("");
-
-  const handleFormSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-
-    const subscriptionData = {
-      email,
-    };
-
-    console.log(JSON.stringify(subscriptionData));
-
-    setEmail("");
-  };
-
   return (
-    <div className="text-center hidden md:block mt-10">
-      <h3 className="text-lg font-bold mb-4 text-pe">Subscribe</h3>
-      <div className="flex items-center bg-white rounded-[14px] mt-5">
+    <div className="w-full mt-10 text-center">
+      <h3 className="mb-4 text-lg font-bold text-pe">Subscribe</h3>
+      <form
+        action="https://docs.google.com/forms/d/e/1FAIpQLScYjyjX06GXezWj2GZTf1U-4UCRWUEYLj_xaX4rHcPrmp-urA/formResponse"
+        method="post"
+        role="form"
+        className="mt-5 bg-white fss rounded-xl"
+      >
         <input
-          className="flex w-48 h-10 bg-white border-white rounded-tl-[14px] rounded-bl-[14px] p-2 justify-center text-sm focus:outline-none"
+          className="flex w-48 h-10 bg-white border-white rounded-tl-[14px] rounded-bl-[14px] p-2 justify-center text-sm focus:outline-none flex-1"
           type="email"
+          name="entry.64697331"
           placeholder="Type email..."
-          onChange={(e) => setEmail(e.target.value)}
+          required
         />
-        <div
-          className="w-10  h-10 bg-pk rounded-tr-[14px] rounded-br-[14px] ml-2 cursor-pointer flex items-center justify-center"
-          onClick={handleFormSubmit}
-        >
-          <Image src="/svgs/send.svg" width={200} height={200} alt="" />
-        </div>
-      </div>
+        <input
+          type="submit"
+          value=""
+          className="min-w-[20%] h-10 bg-pk bg-contain bg-no-repeat bg-center bg-[url('/svgs/send.svg')] rounded-r-xl"
+        />
+      </form>
     </div>
   );
 }

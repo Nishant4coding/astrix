@@ -61,17 +61,16 @@ const TestimonialData = ({
 }: {
   content: string;
   name: string;
-  link:string;
+  link: string;
   position: string;
 }) => {
   return (
-    <div className="fc text-white text-xl font-Roboto min-w-full lg:min-w-[47vw] p-4 h-[47vh] fss fc snap-start glass  ">
-      <div className="md:text-md text-sm leading-relaxed min-h-[40%] ">
+    <div className="fcc fc text-white text-xl font-Roboto min-w-full lg:min-w-[47vw] p-4 h-[45vh] fss fc snap-start glass  ">
+      <div className="text-sm md:text-xl lg:text-2xl leading-relaxed min-h-[40%] ">
         {'"'}
         {content}
         {'"'}
       </div>
-      seperator
       <div className="w-full">
         <Image
           src={"/svgs/testimonialSeperator.svg"}
@@ -83,15 +82,21 @@ const TestimonialData = ({
       </div>
       <div className="relative fsc fr w-full">
         <div className="p-4 px-4">
-          <Image src={link} alt="people image" width={100} height={100} className="w-32 h-32 bg-stone-500 rounded-full" />
+          <Image
+            src={link}
+            alt="people image"
+            width={100}
+            height={100}
+            className="w-32 h-32 bg-stone-500 rounded-full"
+          />
         </div>
         <div className="fr justify-between w-[60%]">
-          <div className="text-lg font-medium font-Roboto uppercase leading-[28.80px]">
+          <div className="text-xs md:text-xl lg:text-2xl font-medium font-Roboto uppercase leading-[28.80px]">
             <div>{name}</div>
             <div className="text-pe ">{position}</div>
           </div>
           <Image
-            className="w-20"
+            className="w-12"
             src="/svgs/testimonial.svg"
             width={30}
             height={30}

@@ -16,53 +16,205 @@ import Marquee from "react-fast-marquee";
 function Brand() {
   return (
     <div className="w-full fc fcc py-12 my-12 ">
-      <div className="text-3xl md:text-6xl font-medium text-white fcc ">
+      <div className="text-3xl md:text-6xl font-medium text-white text-center">
         <span className="text-pk">Trusted </span>&nbsp; by Top Brands
       </div>
       {/* all scrolling animations */}
       <div className="w-full mt-12 gap-8 fc">
         <Marquee speed={100} pauseOnHover>
-          <Image src={svg1} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg2} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg3} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg4} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg5} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg6} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg7} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg8} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg9} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg10} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg11} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg12} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all ">
+            <Image
+              src={svg1}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg2}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg3}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg4}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg5}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg6}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg7}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg8}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg9}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg10}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg11}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg12}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
         </Marquee>
         <Marquee speed={100} direction="right" pauseOnHover>
-          <Image src={svg1} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg2} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg3} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg4} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg5} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg6} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg7} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg8} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg9} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg10} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg11} alt="svg" className="border p-2 mx-4 rounded-xl" />
-          <Image src={svg12} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg1}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg2}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg3}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg4}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg5}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg6}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg7}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg8}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg9}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg10}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg11}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
+
+          <span className="rounded-xl mx-4 p-[2px] bg-white hover:bg-gradient-pp fcc transition-all">
+            <Image
+              src={svg12}
+              alt="svg"
+              className="p-2 rounded-xl w-full h-full bg-background"
+            />
+          </span>
         </Marquee>
-        {/* <Marquee animate={true} direction="left" speed="fast">
-          <Image src={svg1} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg2} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg3} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg4} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg5} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg6} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg7} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg8} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg9} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg10} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg11} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg12} alt="svg" className="border p-2 rounded-xl" />
-        </Marquee> */}
       </div>
     </div>
   );
