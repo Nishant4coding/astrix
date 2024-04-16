@@ -9,7 +9,7 @@ function Nav() {
     <div className="fc fcc w-full ">
       <div className="fr fcb md:w-[90%] w-[95%]">
         <Image
-          className="md:w-64 md:h-12 w-40 h-8"
+          className="w-40 h-16"
           alt="main logo"
           src="/logo.png"
           width={500}

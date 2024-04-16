@@ -46,7 +46,7 @@ export default function Unlock() {
                 <div className="text-center text-gray-300 text-2xl font-semibold font-Roboto">
                   Data Analytics
                 </div>
-                <div className="text-justify text-gray-300 text-base font-light font-Roboto">
+                <div className="text-center text-gray-300 text-base font-light font-Roboto">
                   Extract valuable insights from your data to drive data-driven
                   decision-making.
                 </div>
@@ -55,7 +55,7 @@ export default function Unlock() {
                 <div className="text-center text-gray-300 text-2xl font-semibold font-Roboto">
                   Process Automation
                 </div>
-                <div className="text-justify text-gray-300 text-base font-light font-Roboto">
+                <div className="text-center text-gray-300 text-base font-light font-Roboto">
                   Streamline workflows, reduce manual interventions, and boost
                   operational efficiency.
                 </div>
@@ -69,7 +69,7 @@ export default function Unlock() {
                 <div className="text-center text-gray-300 text-2xl font-semibold font-Roboto">
                   Predictive Analytics
                 </div>
-                <div className="text-justify text-gray-300 text-base font-light font-Roboto">
+                <div className="text-center text-gray-300 text-base font-light font-Roboto">
                   Anticipate trends and behaviors for proactive decision-making.
                   Stay ahead in the digital age with AI Automations. Embrace the
                   future of automation today.
@@ -80,7 +80,7 @@ export default function Unlock() {
                   target="_blank"
                   href="https://calendly.com/tusharasthana2002/free-consultation"
                 >
-                  <Button className="bg-pk rounded-xl m-auto text-white px-12 py-8 text-2xl">
+                  <Button className="bg-pk rounded-xl m-auto text-white px-12 py-8 text-2xl whitespace-pre">
                     Click to integrate
                   </Button>
                 </Link>
@@ -89,12 +89,12 @@ export default function Unlock() {
 
             <div className="w-[2px] h-cover bg-gradient-to-b from-transparent via-white to-transparent " />
 
-            <div className="fc fsc gap-20 w-1/5 ">
+            <div className="fc fes gap-12 w-1/5 ">
               <div className="fc fsc gap-5 ">
-                <div className=" text-center text-gray-300 text-2xl font-semibold font-Roboto">
-                  Chatbots and Virtual Assistants
+                <div className="text-center text-gray-300 text-2xl  font-semibold font-Roboto">
+                  Virtual Assistants
                 </div>
-                <div className=" text-justify text-gray-300 text-base font-lightfont-Roboto ">
+                <div className=" text-center text-gray-300 text-base font-lightfont-Roboto ">
                   Enhance customer support and engagement with intelligent
                   chatbots.
                 </div>
@@ -103,7 +103,7 @@ export default function Unlock() {
                 <div className="  text-center text-gray-300 text-2xl font-semibold font-Roboto">
                   AI-Powered Marketing
                 </div>
-                <div className=" text-justify text-gray-300 text-base font-light font-Roboto ">
+                <div className=" text-center text-gray-300 text-base font-light font-Roboto ">
                   Optimize marketing campaigns with AI-driven strategies.
                 </div>
               </div>

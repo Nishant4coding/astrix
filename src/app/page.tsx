@@ -11,6 +11,12 @@ const Unlock = dynamic(() => import("@/components/sections/unlock"));
 const Testimonial = dynamic(() => import("@/components/sections/testimonial"));
 const Info = dynamic(() => import("@/components/sections/info"));
 
+export const metadata = {
+  icons: {
+    icon: "/favicon.png",
+  },
+};
+
 export default function Home() {
   return (
     <main className="pt-8 snap-proximity snap-y ">
@@ -60,7 +66,7 @@ export default function Home() {
         <Info />
       </Suspense>
       <Suspense>
-      <Footer />
+        <Footer />
       </Suspense>
     </main>
   );

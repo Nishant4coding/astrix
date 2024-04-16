@@ -22,9 +22,9 @@ export default function Info() {
       </div>
       <div
         onClick={() => window.scrollTo(0, 0)}
-        className="w-52 h-52 mt-20 flex justify-center items-center relative"
+        className="w-40 h-40 mt-20 flex justify-center items-center relative "
       >
-        <div className="w-40 h-40 ml-5 top-0 absolute bg-pk rounded-full flex justify-center items-center">
+        <div className="w-40 h-40 top-0 absolute bg-pk rounded-full flex justify-center items-center ">
           <Image
             src="/svgs/info.svg"
             width={200}
@@ -37,7 +37,7 @@ export default function Info() {
           />
         </div>
         <Image
-          className="absolute flex w-8 justify-center items-center ml-5 mb-20 transform rotate-180 cursor-pointer"
+          className="absolute w-8 fcc transform rotate-180 cursor-pointer "
           src="/svgs/pointer.svg"
           width={200}
           height={100}

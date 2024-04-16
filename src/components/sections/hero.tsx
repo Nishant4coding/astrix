@@ -132,7 +132,7 @@ function HeroSection() {
 
           <Image
             onClick={scrollToAbout}
-            className="absolute flex w-6 text-bold justify-center items-center  mt-8 transform cursor-pointer"
+            className="absolute w-6 fcc transform cursor-pointer"
             src="/svgs/pointer.svg"
             width={200}
             height={100}
